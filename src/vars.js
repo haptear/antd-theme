@@ -134,6 +134,105 @@ const vars = [
         desc: ''
       }
     ]
+  },
+  {
+    name: 'Layout',
+    children: [
+      {
+        name: '@layout-body-background',
+        type: 'color',
+        value: '#f0f2f5',
+        desc: ''
+      },
+      {
+        name: '@layout-header-background',
+        type: 'color',
+        value: '#001529',
+        desc: ''
+      },
+      {
+        name: '@layout-footer-background',
+        type: 'string',
+        value: '@layout-body-background',
+        desc: ''
+      },
+      {
+        name: '@layout-header-height',
+        type: 'number',
+        value: 64,
+        unit: 'px',
+        desc: ''
+      },
+      {
+        name: '@layout-header-padding',
+        type: 'string',
+        value: '0 50px',
+        desc: ''
+      },
+      {
+        name: '@layout-footer-padding',
+        type: 'string',
+        value: '24px 50px',
+        desc: ''
+      },
+      {
+        name: '@layout-sider-background',
+        type: 'string',
+        value: '@layout-header-background',
+        desc: ''
+      },
+      {
+        name: '@layout-trigger-height',
+        type: 'number',
+        value: 48,
+        unit: 'px',
+        desc: ''
+      },
+      {
+        name: '@layout-trigger-background',
+        type: 'color',
+        value: '#002140',
+        desc: ''
+      },
+      {
+        name: '@layout-trigger-color',
+        type: 'color',
+        value: '#fff',
+        desc: ''
+      },
+      {
+        name: '@layout-zero-trigger-width',
+        type: 'number',
+        value: 36,
+        unit: 'px',
+        desc: ''
+      },
+      {
+        name: '@layout-zero-trigger-height',
+        type: 'number',
+        value: 42,
+        unit: 'px',
+        desc: ''
+      },
+      {
+        name: '@layout-sider-background-light',
+        type: 'color',
+        value: '#fff',
+        desc: ''
+      },
+      {
+        name: '@layout-trigger-background-light',
+        type: 'color',
+        value: '#fff',
+        desc: ''
+      },
+      {
+        name: '@layout-trigger-color-light',
+        type: 'string',
+        value: '@text-color',
+        desc: ''
+      }
+    ]
   }
 ];
 
