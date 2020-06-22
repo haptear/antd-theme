@@ -66,7 +66,7 @@ class ThemeEdit extends Component {
 
     this.state = {
       // defaultTheme,
-      size: 'default',
+      size: 'middle',
       disabled: false,
       darkMenu: false,
       showBreadcrumb: true
@@ -185,7 +185,7 @@ class ThemeEdit extends Component {
                   <FormItem label="Size">
                     <Radio.Group size="default" value={size} onChange={this.handleSizeChange}>
                       <Radio.Button value="large">large</Radio.Button>
-                      <Radio.Button value="default">default</Radio.Button>
+                      <Radio.Button value="middle">default</Radio.Button>
                       <Radio.Button value="small">small</Radio.Button>
                     </Radio.Group>
                   </FormItem>
